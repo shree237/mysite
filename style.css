@@ -1,0 +1,517 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.nav{
+    background-color: rgb(83, 9, 80);
+    z-index: 9;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0px 3px 65px rgb(8, 1, 7);
+    
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 5px;
+    height: 70px;   
+}
+.logo{
+    float: left;
+    width: 100%;
+}
+.logo img{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    width: 100px;
+    height: auto;
+    margin-left: 30px;
+}
+.nav_side{
+    float: right;
+    margin-top: 20px;
+    width: 1000px;
+    height: 60px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: orange;
+    transition: all 1s ease;
+}
+.main_content{
+    padding-top: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.main_content h2{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+    text-shadow: 4px 4px 16px black;
+}
+.datainfo{
+    width: 100%;
+}
+.datainfo p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 100%;
+
+}
+.btn{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.btn a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.game{
+    margin-top: 30px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+.game h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    text-shadow: 4px 4px 16px black;
+}
+.game ul{
+    display: flex;
+    text-decoration: none;
+    margin: 40px;
+    list-style: none;
+}
+.game_list{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.game_list li img{
+    margin: 40px;
+}
+.game_list .pubg{
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.pubg_img img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+.wcc3_img img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+.chess_img img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+.info{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.info p{
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+.info a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.info a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.keypoint{
+    padding: 50px;
+
+}
+.keypoint h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 4px 4px 16px black;
+}
+.key_container{
+    display: flex;
+}
+.key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.key_content li{
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid gold;
+    color: black;
+    background-color: white;
+    text-align: left;
+    box-shadow:4px 4px 16px black;
+    list-style: none;
+    font-size: 20px;
+}
+.keyimage{
+    float: right;
+    width: 40%;
+    margin-left: 100px;
+}
+.keyimage img{
+    width: 100%;
+    margin-top: 24px;
+    box-shadow:4px 4px 16px black;
+}
+.testi{
+    padding: 50px;
+}
+.testi h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 4px 4px 16px black;
+}
+.testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.itemgod{
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: none;
+    text-align: center;
+}
+.itemcod{
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: none;
+    text-align: center;
+}
+.itemacc{
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: none;
+    text-align: center;
+}
+.itemgod img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+
+}
+.itemcod img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+.itemacc img{
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}    
+.itemcontent p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.channel{
+    padding: 50px;
+
+}
+.channel h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 4px 4px 16px black;
+}
+.Channelcontent{
+    display: flex;
+}
+.channelvdo{
+    width: 35%;
+    padding: 20px;
+    margin: 20px;
+}
+.channelvdo video{
+  width: 100%;
+  border: 10px solid orange;
+  outline: none;
+}
+.channelinfo{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+.channelinfo p{
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;  
+}
+.feed{
+    background-image: url("top.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 50px;
+}
+.feed h2{ 
+    color: aliceblue;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 4px 4px 16px black;
+}
+.feedform{
+    text-align: center;
+}
+.feedform form{
+    padding: 20px;
+}
+.feedform form input{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.feedform form textarea{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.feedform form button{
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(25, 55, 151);
+    color: white;
+    border-radius: 5px;
+}
+.feedform form button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.aboutus{
+    padding: 140px;
+    margin: auto;
+}
+.aboutus h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    text-shadow: 4px 4px 10px black;
+}
+.aboutus p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;  
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.contactcontent{
+    padding: 100px;
+
+}
+.contactcontent h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    text-shadow: 4px 4px 10px black;
+}
+.gmap{
+    border: 5px solid orange;
+}
+.contactinfo{
+    padding: 20px;
+}
+.contactinfo p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;  
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+footer{
+    background-color:rgb(88, 31, 87);
+    padding: 50px;
+}
+.pages{
+    text-align: center;  
+}
+.pages h3{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+.pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(252, 151, 0);
+    font-size: 15px;
+}
+.pages a:hover{
+    color: rgb(7, 0, 0);
+}
+.doc{
+    text-align: center;
+   
+}
+.doc h3{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+.doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(252, 151, 0);
+    font-size: 15px;
+}
+.doc a:hover{
+    color: rgb(7, 0, 0);
+}
+.social{
+    text-align: center;
+    
+}
+.social h3{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+.contact{
+    text-align: center;
+  
+}
+.contact h3{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+.copyright{
+    color: black;
+    text-align: center;
+}
+.social a{
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+    
+}
+.social a:hover{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    
+}
+.contact a{
+    font-size: 30px;
+    color: orange;
+    margin: 10px;
+    
+}
+.contact a:hover{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+}

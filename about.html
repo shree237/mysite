@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpeg" width="150"></a>
+        </div>
+        <div class="nav_side">
+            <a href="about.html">About us</a>
+            <a href="service.html">Services</a>
+            <a href="blog.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Login/Register</a>
+        </div>
+    </nav>
+    
+    <div class="aboutus">
+        <h2>About us</h2>
+        <div class="aboutcontent">
+            <p>Play puzzle games, word games, matching cards games and more for free online. Play free online games, No download, no pop-ups, Best gaming experience. Play Io Games Online. Play Arcade Games Online. Play Racing Games Online.Mirror Mode is available in Erangel, Livik and Sanhok. However, the Mirror Island which is a large island in the air, will be appearing only in the Mirror World mode in Erangel! After you enter the Mirror Island, there are tons to do. There’s loot to collect after you jump down to the island, but beware of the very unstable hex energy which will make the Island split after a certain time. You can acquire character skills, transform randomly into one of Jinx/Vi/Jayce/Caitlyn and use new weapons and skills to fight other foes. Beware though, if you are eliminated, you will be kicked out and returned to your normal state.</p>
+        </div>
+        <hr>
+        <br>
+        <h2>Our Mission</h2>
+        <p>Basically, BGMI is the Indian version of the original PUBG mobile that's why they have the same maps which are in battle royale mode. ... In BGMI players have the option of 6 maps which include Erangel</p>
+    </div>
+
+    <div class="feed">
+        <h2>YOUR FEEDBACK</h2>
+        <div class="feedform">
+            <form name="Submitfeedback" method="post">
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="email" name="Email" placeholder="Email ID"><br>
+                <input type="number" name="Number" placeholder="Contact Number"><br>
+                <textarea name="Review" placeholder="Write your Review" cols="20" rows="7"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+</div>
+<footer>
+    <div class="pages">
+        <h3>Pages</h3>
+        <a href="">About us</a>|
+        <a href="">Services</a>|
+        <a href="">Blogs</a>|
+        <a href="">login</a>|
+        <a href="">Sign up</a>
+    </div>
+    <div class="doc">
+        <h3>Note</h3>
+        <a href="">Privacy policy</a>|
+        <a href="">Term of use</a>    
+    </div>
+    <div class="social">
+        <h3>Follow us</h3>
+        <a href="https://www.facebook.com/Shree.Parasbone.94/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/shree_p.07/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCh5sJDE7BDIjXOEhr8YYLfw" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    </div>
+    <div class="contact">
+        <h3>Contact us</h3>
+        <a href="https://api.whatsApp.com/send?phone=+7709518999" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href="tel: +917709518999" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>
+        <a href="mailto: shreeparasbone23@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>Copyright &copy; 2022 gaming. all right</p>
+    </div>
+</footer>
+<script>
+const scriptURL =
+'https://script.google.com/macros/s/AKfycbx21eDcdzPE-LKv1xXpzxYGASrtrOGyXtFm8f-Fi3vnX7U7zvDMNhgy__Uo43bGuK1n/exec'
+const form = document.forms['Submitfeedback']
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => alert(
+            "Thanks for you valuable feedback!!!"))
+        .catch(error => console.error('Error!', error.message))
+})
+
+</script>
+
+</body>
+</html>
