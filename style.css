@@ -515,3 +515,14 @@ footer{
     color: white;
     margin: 10px;
 }
+
+
+@media screen and (max-width: 950px) {
+    .game ul{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        margin: 40px;
+        list-style: none;
+    }
+  }
